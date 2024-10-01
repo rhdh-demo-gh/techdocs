@@ -6,6 +6,3 @@ nav:
   - "Install Red Hat Developer Hub": install-rhdh.md
 plugins:
   - techdocs-core
-metadata:
-  namespace: default
-kind: system

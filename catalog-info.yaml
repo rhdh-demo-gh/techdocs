@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 metadata:
   name: parasol-org-techdocs
+  description: General platform documentation not tied to any specific Component.
+  annotations:
+    backstage.io/techdocs-ref: "dir:."
 spec:
-  type: dir
-  targets:
-    - "how-tos/mkdocs.yaml"
+  type: documentation  # Marks this entity as documentation
+  owner: docs-team
