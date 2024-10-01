@@ -1,0 +1,11 @@
+site_name: how-tos
+site_description: How-To Articles for Red Hat Developer Hub
+site_author: user:evanshortiss
+nav:
+  - "Overview": index.md
+  - "Install Red Hat Developer Hub": install-rhdh.md
+plugins:
+  - techdocs-core
+metadata:
+  namespace: default
+kind: system
