@@ -7,5 +7,5 @@ metadata:
     backstage.io/techdocs-ref: "dir:."
 spec:
   type: documentation  # Marks this entity as documentation
-  owner: docs-team
+  owner: rhdh-demo-gh:docs-team
   lifecycle: production
