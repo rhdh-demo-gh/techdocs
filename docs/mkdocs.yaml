@@ -4,5 +4,6 @@ site_author: user:evanshortiss
 nav:
   - "Overview": index.md
   - "Install Red Hat Developer Hub": install-rhdh.md
+  - "Onboarding Applications": onboarding.md
 plugins:
   - techdocs-core
